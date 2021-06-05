@@ -1,5 +1,6 @@
 import { StripeError } from "@stripe/stripe-js";
 import React from "react";
+import "./styles.css";
 
 const SubmitButton: React.FC<{
   processing: boolean | undefined;
